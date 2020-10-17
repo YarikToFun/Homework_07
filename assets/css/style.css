@@ -1,0 +1,129 @@
+body {
+    font-family: 'Noto Sans TC', sans-serif;
+    margin: 0px;
+}
+
+.container {
+    padding: 10px;
+    min-width: 300px;
+    width: 70%;
+    max-width: 960px;
+    margin: 0 auto;
+    min-height: 100vh;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+}
+
+header, main, footer {
+    padding: 10px;
+    margin: 10px;
+}
+
+header {
+    padding-left: 0px;
+}
+
+main {
+    flex-grow: 1;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+    justify-content: flex-end;
+    align-items: baseline;
+    padding: 0px;
+    font-weight: 900;
+}
+
+li {
+    margin: 10px;
+    font-size: 20px;
+}
+
+li:first-child {
+    margin-right: auto;
+    font-size: 35px;
+}
+
+footer {
+    font-weight: 900;
+    margin: auto;
+}
+
+p {
+    text-align: justify;
+}
+
+a {
+    color: black;
+    }
+
+.link {
+    text-decoration: none;
+    color: black;
+}
+
+.content {
+    width: 290px;
+    height: 490px;
+    margin: 5px 0px 10px;
+    background: white;
+    box-shadow: 0px 0px 10px gray;
+    box-sizing: border-box;
+}
+
+.photo{
+    background: url(../img/glasses.jpg);
+    background-size: cover;
+    height: 200px;
+}
+
+.data {
+    background-color: rgb(236, 236, 236);
+    margin: 0px;
+    line-height: 40px;
+    font-size: 20px;
+    font-weight: 500;
+    text-align: center;
+    font-family: 'Bebas Neue', cursive;
+}
+
+.header {
+    padding-top: 0px;
+    padding: 0px;
+    font-size: 20px;
+    font-weight: 900;
+    text-align: center;
+    font-family: 'Bebas Neue', cursive;
+}
+
+.main {
+    color: gray;
+    padding: 5px;
+    padding-top: 0px;
+    font-family: sans-serif;
+    font-size: 15px;
+}
+
+.star {
+    margin: 10px auto;
+    width: 110px;
+    color: rgb(228, 149, 3);
+}
+
+.footer {
+    background: black;
+    color: rgb(189, 184, 184);
+    display: flex;
+    justify-content: space-between;
+    padding: 0 10px 0 10px;
+    font-family: sans-serif;
+}
+
+.part {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
